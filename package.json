@@ -1,0 +1,12 @@
+{
+  "name": "b-a-c-k-e-n-d",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "Hello world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

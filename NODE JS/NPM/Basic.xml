@@ -1,0 +1,20 @@
+npm -> node package manager tha namm but abhi ye hata diya gya hi ise khali npm bolteb hai kyunnki ispe ab node ke alawa aur bhi cchizo ke package milte hai
+
+ALL THE NPM PACKAGES ARE PRESENT ON THIS WEBSITE -> https://www.npmjs.com/ <-
+
+Package vs Modules -> Jo node js ke sath preinstalled aata hai use Modules bolte aur jinhe ham npm se download karte hai unhe Package bolte hai
+
+installing and uninstalling packages in npm ->
+installing :-> npm i [package name]
+uninstalling :-> npm uninstall [package name]
+
+installing specific version of a package -> npm i [PackageName]@version
+
+<------------------------------------------------------------------------------------------------------>
+dependencies -> packages aur un packages ki depencies(Yani wo kisi aur package pe depend to nhi hai)
+devdependencies -> Aise packages jo ki khali development ke time pe time use hote aur deployment ke baad unka koe nam nhi hota unhe devdependencies kahte hai --:>( npm i [PackageName] --save-dev )
+<------------------------------------------------------------------------------------------------------>
+
+scripts in npm ->
+for running any script on npm we have to run command( npm run [script.js] )
+but > stop < < & > > test <  are the two scripts that can be used without using run command ( npm test/stop ) but that node modules me jake package.json file me us script ko add karna padega like start and test one.
