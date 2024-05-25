@@ -1,0 +1,8 @@
+npm init -> to create  a package.json file which consists of the files data.
+
+<- Before running the script in the terminal using the {node script.js} command we have to initialize the exact path if not initialized using the {cd "Folder Name"}...->
+
+<- Running the server using (node script.js) command requires manual restarting of server( first stop then start) but using nodemon package (nodemon script.js), nodemon is a node module that restarts the sever automatically if user makes nay changes and shows the changes made.
+
+
+

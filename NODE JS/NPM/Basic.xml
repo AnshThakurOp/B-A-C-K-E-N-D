@@ -8,7 +8,8 @@ installing and uninstalling packages in npm ->
 installing :-> npm i [package name]
 uninstalling :-> npm uninstall [package name]
 
-installing specific version of a package -> npm i [PackageName]@version
+installing specific version of a package ->
+ npm i [PackageName]@version
 
 <------------------------------------------------------------------------------------------------------>
 dependencies -> packages aur un packages ki depencies(Yani wo kisi aur package pe depend to nhi hai)
