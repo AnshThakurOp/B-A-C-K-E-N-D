@@ -1,0 +1,7 @@
+<-{<- Cookies -> wo data jo ki frontend pe save rhta use cookie kahte, mainly cookies user ko lligin rkhne ke liye use krte hai ->->
+
+<-{<-Session -> Ek Session login e lekar user ke logout tak hota bascically user AUR server ka connection at one time from login to logout is called a session } ->->
+
+<-When we take data from the frontend that is in the form of plain text but the server or we can say backend accepts in the form of some unreadable format so we use some express middleware functions to change to readable format ->
+app.use(express.json())
+app.use(express.urlencoded({extended:true}))
